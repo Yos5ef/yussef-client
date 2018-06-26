@@ -1,6 +1,22 @@
 .head-img {
-  img {
-    width: 100%;
+  overflow: hidden;
+  height: 228px;
+  background-image: url('https://cdn-images-1.medium.com/max/2000/1*IqjcO0p22MeQoAQwAQ8LQg.jpeg');
+  background-position: 0% 10%;
+  cursor: pointer;
+  .name {
+    text-align: center;
+    background: #ccc;
+    opacity: 0;
     height: 228px;
+    line-height: 228px;
+    color: white;
+    font-size: 30px;
+    letter-spacing:15px;
+  }
+}
+.head-img:hover {
+  .name {
+    opacity: 0.5;
   }
 }
