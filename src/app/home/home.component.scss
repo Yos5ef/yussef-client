@@ -1,8 +1,10 @@
 .head-img {
   overflow: hidden;
   height: 228px;
-  background-image: url('https://cdn-images-1.medium.com/max/2000/1*IqjcO0p22MeQoAQwAQ8LQg.jpeg');
-  background-position: 0% 10%;
+  background: center no-repeat;
+  background-size: 100%;
+  background-image: url('https://pic3.zhimg.com/v2-f53dc463ccb3a0218c0880395208c159_r.jpg');
+  background-position: 0% 50%;
   cursor: pointer;
   .name {
     text-align: center;
